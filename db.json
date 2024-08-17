@@ -1,0 +1,106 @@
+{
+    "followers": [
+        {
+            "id":"1",
+            "platform": "public/Images/icon-facebook.svg",
+            "username": "@nathanf",
+            "value": 1987,
+            "metric": "Followers",
+            "icon": "./public/Images/icon-up.svg",
+            "change": "+12 Today"
+        },
+        {
+            "id":"2",
+            "platform": "public/Images/icon-twitter.svg",
+            "username": "@nathanf",
+            "value": 1044,
+            "metric": "Followers",
+            "icon": "./public/Images/icon-up.svg",
+            "change": "+99 Today"
+        },
+        {
+            "id":"3",
+            "platform": "public/Images/icon-instagram.svg",
+            "username": "@realnathanf",
+            "value": 11000,
+            "metric": "Followers",
+            "icon": "./public/Images/icon-up.svg",
+            "change": "1099 Today"
+        },
+        {
+            "id":"4",
+            "platform": "public/Images/icon-youtube.svg",
+            "username": "Nathan F.",
+            "value": 8239,
+            "metric": "Subscribers",
+            "icon": "./public/Images/icon-down.svg",
+            "change": "144 Today"
+        }
+    ],
+    "engagement": [
+        {
+            "id":"1",
+            "platform": "public/Images/icon-facebook.svg",
+            "metric": "Page Views",
+            "value": 87,
+            "icon": "./public/Images/icon-up.svg",
+            "change": "+3%"
+        },
+        {
+            "id":"2",
+            "platform": "./public/Images/icon-facebook.svg",
+            "metric": "Likes",
+            "value": 52,
+            "icon": "./public/Images/icon-down.svg",
+            "change": "-2%"
+        },
+        {
+            "id":"3",
+            "platform": "public/Images/icon-instagram.svg",
+            "metric": "Likes",
+            "value": 5462,
+            "icon": "./public/Images/icon-up.svg",
+            "change": "+2257%"
+        },
+        {
+            "id":"4",
+            "platform": "public/Images/icon-instagram.svg",
+            "metric": "Profile Views",
+            "value": 52000,
+            "icon": "./public/Images/icon-up.svg",
+            "change": "+1375%"
+        },
+        {
+            "id":"5",
+            "platform": "public/Images/icon-twitter.svg",
+            "metric": "Retweets",
+            "value": 117,
+            "icon": "./public/Images/icon-up.svg",
+            "change": "+303%"
+        },
+        {
+            "id":"6",
+            "platform": "public/Images/icon-twitter.svg",
+            "metric": "Likes",
+            "value": 507,
+            "icon": "./public/Images/icon-up.svg",
+            "change": "+553%"
+        },
+        {
+            "id":"7",
+            "platform": "public/Images/icon-youtube.svg",
+            "metric": "Likes",
+            "value": 107,
+            "icon": "./public/Images/icon-down.svg",
+            "change": "-19%"
+        },
+        {
+            "id":"8",
+            "platform": "public/Images/icon-youtube.svg",
+            "metric": "Total Views",
+            "value": 1407,
+            "icon": "./public/Images/icon-down.svg",
+            "change": "-12%"
+        }
+    ]
+}

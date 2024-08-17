@@ -1,0 +1,36 @@
+#stylemini{
+    background-color: var(--button_background) ;
+    border-radius: 10px;
+    margin: 5px;
+    width: 40%px;
+    padding: 10px;
+    color: var(--body_color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#mini1{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    text-align: left;
+    font-size:medium ;
+}
+#mini2{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    width: 30%;
+}
+#name{
+    color: hsl(228, 12%, 44%);
+}
+.div{
+    width: 100%;
+    justify-content: space-between;
+    gap: 0.20rem;
+    color: green;
+}

@@ -1,0 +1,59 @@
+#dachbord{
+    width: 80%;
+    height: 100%;
+    justify-items: center;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+#patern{
+    background-color: var(--pattern_background);
+    width: 100%;
+    height: 200px;
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+}
+#stylfollow{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+#overviewstyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+}
+#stylfollow :hover{
+    background-color: var(--btnhover_background);
+}
+
+#overviewstyle :hover {
+    background-color: var(--btnhover_background);
+}
+
+@media (max-width : 600px){
+    #root {
+      display: flex;
+      flex-direction: column;
+      column-gap: 1rem;
+    }
+    #stylfollow {
+        display: flex;
+        flex-direction: row;
+        column-gap: 5px;
+        column-gap: 1rem;
+      }
+      
+  }

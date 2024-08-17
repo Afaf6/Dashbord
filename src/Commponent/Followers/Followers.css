@@ -1,0 +1,34 @@
+#label{
+    background-color: var(--button_background);
+    border-radius: 10px;
+    margin: 5px;
+    width: 100%;
+    padding: 10px;
+    color: var(--body_color);
+    margin: 0;
+    height: 95%;
+}
+/* #maindiv{
+    margin: 5px;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200x;
+    background: linear-gradient(hsl(37, 97%, 70%) to hsl(329, 70%, 58%));
+} */
+.div1{
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.75rem;
+    justify-content: center;
+    
+    
+}
+.div2{
+    color: green;
+
+}
+

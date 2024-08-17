@@ -1,0 +1,45 @@
+:root {
+    --body_background:hsl(0, 0%, 100%);
+    --body_color:hsl(232, 19%, 15%);
+    --button_background:hsl(227, 47%, 96%);
+    --pattern_background: hsl(228, 100%, 98%);
+    --btnhover_background: hsl(230, 50%, 90%);
+}
+[data-them="dark"] {
+    --body_background: hsl(230, 17%, 14%);
+    --body_color: hsl(0, 0%, 100%);
+    --button_background: hsl(228, 28%, 20%);
+    --pattern_background: hsl(232, 19%, 15%);
+    --btnhover_background: hsl(228, 25%, 30%);
+}
+
+
+html{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+@media screen and (min-width: 768px){
+    body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: var(--body_background);
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+#root{
+    height: 100%;
+    width: 100%;
+    color: var(--body_color);
+}
+button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+button:hover {
+    background-color: var(--btnhover_background);
+}
