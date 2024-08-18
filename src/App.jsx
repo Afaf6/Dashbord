@@ -16,7 +16,7 @@ function App() {
 
   const [ArrayOfObject, setArrayOfObject] = useState([
 
-    { backgroundColor : "blue",
+    { 
       id: 1,
       platform: Facebook,
       username: "@nathanf",
@@ -25,7 +25,7 @@ function App() {
       icon: UpIcon,
       change: "12 Today"
   },
-  { backgroundColor : "blue",
+  { 
       id:2,
       platform: Twitter,
       username: "@nathanf",
@@ -34,7 +34,7 @@ function App() {
       icon: UpIcon,
       change: "99 Today"
   },
-  {  backgroundColor : "blue",
+  {  
       id:3,
       platform: Instagram,
       username: "@realnathanf",
@@ -43,7 +43,7 @@ function App() {
       icon: UpIcon,
       change: "1099 Today"
   },
-  {  backgroundColor :"mmmm",
+  {
       id:4,
       platform: Youtube,
       username: "Nathan F.",
@@ -71,7 +71,7 @@ function App() {
           id:1,
           platform: Facebook,
           metric: "Page Views",
-          value: 87,
+          value: "87",
           icon: UpIcon,
           change: "3%"
       },
@@ -81,7 +81,7 @@ function App() {
           metric : "Likes",
           value : 52,
           icon : DownIcon,
-          change: "-2%"
+          change: "2%"
       },
       {
           id:3,

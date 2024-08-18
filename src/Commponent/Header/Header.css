@@ -39,7 +39,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: var(--circl_background);
   background: linear-gradient(120deg,  hsl(210, 78%, 56%), hsl(146, 68%, 55%));
   -webkit-transition: .4s;
   transition: .4s;
@@ -52,7 +52,7 @@
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  background-color: var(--circl_background);
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -79,4 +79,16 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+@media (max-width : 700px){
+  #headerstyl{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 0;
+  }
+  #dark-mode{
+    border-top: 2px solid gray;
+    width: 100%;
+  }
 }

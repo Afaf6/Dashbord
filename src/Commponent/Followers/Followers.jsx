@@ -5,8 +5,8 @@ function Followers (props) {
   
     return (
     
-            
-             <button id="label">
+             <button id="label" className={props.username == "@realnathanf" ? "bgista" : 
+                                           props.username =="@nathanf" ? "bgblue" : "bgred" }>
             <div className="div1">
              <img src={props.platform}/>
             <span>{props.username}</span>   
@@ -15,8 +15,7 @@ function Followers (props) {
             <p>{props.metric}</p>
             <div className="div2">
                 <img src={props.icon}/>
-                
-                <span>{props.change}</span>
+                <span className={props.metric == "Subscribers" ? "textred" : "textgreen"}>{props.change}</span>
             </div>
         </button>
     

@@ -4,20 +4,27 @@
     --button_background:hsl(227, 47%, 96%);
     --pattern_background: hsl(228, 100%, 98%);
     --btnhover_background: hsl(230, 50%, 90%);
+    --circl_background: #f7f2f2;
 }
 [data-them="dark"] {
     --body_background: hsl(230, 17%, 14%);
     --body_color: hsl(0, 0%, 100%);
-    --button_background: hsl(228, 28%, 20%);
-    --pattern_background: hsl(232, 19%, 15%);
+    --button_background:hsl(228, 28%, 20%);
+    --pattern_background: hsl(232, 19%, 15%) ;
     --btnhover_background: hsl(228, 25%, 30%);
+    --circl_background: #130c1c;
 }
+/* hsl(228, 28%, 20%) */
 
 
 html{
     height: 100%;
     width: 100%;
     padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
 }
 @media screen and (min-width: 768px){
     body{
@@ -34,6 +41,7 @@ html{
     height: 100%;
     width: 100%;
     color: var(--body_color);
+    background-color: var(--body_background) ;
 }
 button{
     border: none;

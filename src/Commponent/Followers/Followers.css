@@ -1,3 +1,4 @@
+
 #label{
     background-color: var(--button_background);
     border-radius: 10px;
@@ -7,28 +8,42 @@
     color: var(--body_color);
     margin: 0;
     height: 95%;
+    font-size:medium;
+    
 }
-/* #maindiv{
-    margin: 5px;
-    width: 40%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 200x;
-    background: linear-gradient(hsl(37, 97%, 70%) to hsl(329, 70%, 58%));
-} */
+.bgista{
+    border-top: 4px solid #f9607f;
+    /* border-image: linear-gradient(to right, #fdc468, #ffa263, #ff806c, #f9607f, #df4996) 1 / 4px 0px 0px 0px ;
+    border-radius: 10px; */
+    position: relative;
+    overflow: hidden;
+}
+.bgblue{
+    border-top: 4px solid hsl(208, 92%, 53%);
+}
+.bgred{
+    border-top: 4px solid hsl(348, 97%, 39%);
+}
+#label h1{
+    font-size:5ch;
+    font-weight:bolder;
+}
 .div1{
     display: flex;
     flex-direction: row;
     column-gap: 0.75rem;
     justify-content: center;
-    
-    
 }
 .div2{
-    color: green;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.50rem;
+}
+.textred{
+    color: hsl(348, 69%, 56%);
+}
+.textgreen{
+    color: rgb(70, 169, 70);
 }
 
