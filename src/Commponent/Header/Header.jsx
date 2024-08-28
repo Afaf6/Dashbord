@@ -9,8 +9,8 @@ function Header () {
         document.querySelector("body").setAttribute('data-them', 'light')
     }
     const toggleTheme = (e) => {
-        if (e.target.checked) setlightMode();
-        else setDarkMode()
+        if (e.target.checked) setDarkMode();
+        else setlightMode()
     };
     
     return (
